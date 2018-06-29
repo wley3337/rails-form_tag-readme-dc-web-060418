@@ -1,0 +1,15 @@
+<h3>Post Form</h3>
+
+
+<%= form_tag posts_path do %>
+  <label>Post title:</label><br>
+  <input type="text" name="post[title]" id="post_title">
+<br>
+
+    <label>Post description:</label><br>
+    <textarea id="post_description" name="post[description]"></textarea><br>
+
+    
+    <input type="submit" name="" value="Submit Post">
+
+<%end%>
